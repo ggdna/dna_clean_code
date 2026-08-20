@@ -1,0 +1,9 @@
+{
+  // This package is a DNA layer: dna/ is hand-authored source and is the
+  // last layer of its own instantiation.
+  "version": 1,
+
+  // Orthogonal — clean code stands on its own and is inherited by the
+  // umbrella layer of each organization.
+  "layers": []
+}
