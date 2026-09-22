@@ -1,12 +1,12 @@
 name: dna_clean_code
 description: "DNA layer: clean code and test conventions, language neutral plus Dart and TypeScript"
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/ggdna/dna_clean_code.git
 
 environment:
   sdk: ">=3.13.0 <4.0.0"
 
 dev_dependencies:
-  helix: ^1.1.0
+  helix: ^1.9.0
   lints: ^6.1.0
-  test: ^1.31.2
+  test: ^1.32.0
