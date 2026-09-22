@@ -1,6 +1,6 @@
 name: dna_clean_code
 description: "DNA layer: clean code and test conventions, language neutral plus Dart and TypeScript"
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/ggdna/dna_clean_code.git
 
 environment:
