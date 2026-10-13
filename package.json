@@ -1,6 +1,6 @@
 {
   "name": "@ggdna/dna-clean-code",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "DNA layer: clean code and test conventions, language neutral plus Dart and TypeScript",
   "keywords": [
     "dna",
@@ -35,7 +35,7 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
-    "@types/node": "^26.6.4",
-    "prettier": "^3.9.9"
+    "@types/node": "^26.6.5",
+    "prettier": "^3.9.10"
   }
 }
