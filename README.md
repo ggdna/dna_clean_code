@@ -5,13 +5,14 @@ every language, plus the specifics of the languages we use.
 
 ## Guides
 
-- `dna/doc/guides/code-guide.md` — layout, API shape, naming, small
-  functions, saying it once
+- `dna/doc/guides/code-guide.md` — layout, API shape, example
+  constructors, naming, small functions, saying it once
 - `dna/doc/guides/code-guide-dart.md`,
   `dna/doc/guides/code-guide-typescript.md` — what that means in each
   language
-- `dna/doc/guides/test-guide.md` — mirroring the source tree, real types
-  over mocks, asserting on structure, 100 percent coverage
+- `dna/doc/guides/test-guide.md` — mirroring the source tree, starting
+  from the example, real types over mocks, asserting on structure, 100
+  percent coverage
 - `dna/doc/guides/test-guide-dart.md`,
   `dna/doc/guides/test-guide-typescript.md` — the same, per language
 - `dna/doc/guides/for-ai/ai-review-guide.md`,
