@@ -1,7 +1,7 @@
 {
   "name": "@ggdna/dna-clean-code",
   "version": "0.2.1",
-  "description": "DNA layer: clean code and test conventions, language neutral plus Dart and TypeScript",
+  "description": "Gives a repo the rules for writing and testing code, language neutral and for Dart and TypeScript, and skills that check and review it.",
   "keywords": [
     "dna",
     "helix",
