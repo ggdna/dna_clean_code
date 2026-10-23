@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.12.0",
+      "resolvedVersion": "1.13.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,14 +15,14 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xe22a90f5db73ee20"
+      "hash": "0x4e0442468891e7f4"
     }
   ],
   "claude": {
     "claudeMdInclude": null,
     "claudeMdFromDna": false
   },
-  "baseVersion": "1.12.0",
+  "baseVersion": "1.13.0",
   "baseHash": "0x6883da335b415f9d",
   "instances": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "path": "doc/guides/code-guide-dart.md",
-      "hash": "0x4d561c1f48cd8848"
+      "hash": "0x5f66524b13fec96b"
     },
     {
       "path": "doc/guides/code-guide-typescript.md",
@@ -51,7 +51,7 @@
     },
     {
       "path": "doc/guides/code-guide.md",
-      "hash": "0x92592aded0dc515e"
+      "hash": "0x02fc4de9e1155b74"
     },
     {
       "path": "doc/guides/for-ai/ai-review-guide.md",
