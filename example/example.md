@@ -16,5 +16,5 @@ Usually it arrives through the umbrella layer of your organization, e.g.
 for an `example` constructor on every class:
 
 ```dart
-final user = GgUser.example(age: 17);
+final user = User.example(age: 17);
 ```
