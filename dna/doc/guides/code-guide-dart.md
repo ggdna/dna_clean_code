@@ -39,8 +39,8 @@ back to a working value for each:
 
 ```dart
 /// Creates an example user for tests and docs.
-factory GgUser.example({String? name, int? age}) =>
-    GgUser(name: name ?? 'Jane Doe', age: age ?? 42);
+factory User.example({String? name, int? age}) =>
+    User(name: name ?? 'Jane Doe', age: age ?? 42);
 ```
 
 ## Comment landmarks
