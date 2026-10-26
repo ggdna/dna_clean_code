@@ -6,7 +6,8 @@ every language, plus the specifics of the languages we use.
 ## Guides
 
 - `dna/doc/guides/code-guide.md` — layout, API shape, example
-  constructors, naming, small functions, saying it once
+  constructors, placeholder identifiers, naming, small functions, saying
+  it once
 - `dna/doc/guides/code-guide-dart.md`,
   `dna/doc/guides/code-guide-typescript.md` — what that means in each
   language
