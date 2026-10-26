@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.13.0",
+      "resolvedVersion": "1.14.0",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,19 +15,19 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x7c836197d11ccd60"
+      "hash": "0xea7897d52aebb9b6"
     }
   ],
   "claude": {
     "claudeMdInclude": null,
     "claudeMdFromDna": false
   },
-  "baseVersion": "1.13.0",
+  "baseVersion": "1.14.0",
   "baseHash": "0x6883da335b415f9d",
   "instances": [
     {
       "path": ".claude/skills/code/SKILL.md",
-      "hash": "0x94819046c5ce41f3"
+      "hash": "0x407993e16f1abfce"
     },
     {
       "path": ".claude/skills/review-heavy/SKILL.md",
@@ -51,11 +51,11 @@
     },
     {
       "path": "doc/guides/code-guide.md",
-      "hash": "0x02fc4de9e1155b74"
+      "hash": "0xfebf09bdf11504f3"
     },
     {
       "path": "doc/guides/for-ai/ai-review-guide.md",
-      "hash": "0x76b2e9fb473bd380"
+      "hash": "0xccff7f6e74befd48"
     },
     {
       "path": "doc/guides/for-ai/review-heavy-guide.md",
