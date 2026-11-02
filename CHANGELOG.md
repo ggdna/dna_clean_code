@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.4.0 - 2026-11-02
 
 - Add the architecture guide and the `/gg-review-architecture` skill:
 review the structure of a repo against its goals, its role and its
