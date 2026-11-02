@@ -20,13 +20,15 @@ from what it does today.
   over a domain held elsewhere, it is a library with consumers, or it
   follows another repo (port, mirror, fork, generated code). A repo that
   follows another one is judged by how cheaply it keeps following it;
-  structural changes to the mirrored API belong upstream first
+  structural changes to the mirrored API belong upstream first. In a
+  follower, structure that matches upstream is no finding; a deviation
+  from upstream is
 - Read the goals before the code: the project management repo (goals,
   requirements, the architecture of the current quarter) if there is one,
   the concept in `CLAUDE.md`, the README, open tickets (the ticket folders
-  of the workspace with their `ticket.json`, the issues on the repo host)
-  and `git log`. Read the CHANGELOG as the direction past work took, not
-  as a list of goals
+  of the workspace with their `ticket.json`, open only while their branch
+  is not merged, and the issues on the repo host) and `git log`. Read the
+  CHANGELOG as the direction past work took, not as a list of goals
 - Infer where the system will vary only from evidence you can name: an
   interface with one implementation waiting for more, a README section on
   extending it, files the history shows changing with every feature, a
@@ -76,7 +78,8 @@ from what it does today.
   find its consumers (`interfaces.usedBy` in `index.jsonc`, imports across
   `.ocean`, re-exports) before you judge or change it
 - Public API nobody uses, and public API that exists only for tests, are
-  findings
+  findings once all consumers are known; for a package published outside
+  the workspace, assume outside consumers and ask
 - Outputs that are stored or sent (hash values, file formats, CLI output
   that scripts parse) are contracts too; pin them with golden tests
   before you restructure

@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xd5b9ee934df63ff6"
+      "hash": "0x8e7b9f31d43721ab"
     }
   ],
   "claude": {
@@ -31,7 +31,7 @@
     },
     {
       "path": ".claude/skills/gg-review-architecture/SKILL.md",
-      "hash": "0xa747d567b9c8d69b"
+      "hash": "0xa7a4482774cf24d5"
     },
     {
       "path": ".claude/skills/review-heavy/SKILL.md",
@@ -47,7 +47,7 @@
     },
     {
       "path": "doc/guides/architecture-guide.md",
-      "hash": "0xaeffc7026827886c"
+      "hash": "0x418a3568112ae52f"
     },
     {
       "path": "doc/guides/code-guide-dart.md",
