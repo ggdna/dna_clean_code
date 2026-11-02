@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Add the architecture guide and the `/gg-review-architecture` skill:
+review the structure of a repo against its goals, its role and its
+neighbours, and propose a target structure and shippable steps
+- Check every change against the architecture in the review checklist
+
 ## 0.3.0 - 2026-10-26
 
 ## 0.2.2 - 2026-10-23
