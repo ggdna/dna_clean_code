@@ -17,7 +17,8 @@ one of them live next door: [Dart](./code-guide-dart.md),
 ## Lay out the package
 
 - Name the package after the repo
-- Keep one top level concept per package
+- For how the package is cut into concepts, see the
+  [Architecture Guide](./architecture-guide.md) under `@boundaries`
 - Expose the package through a single entry point that re-exports and
   holds no implementation of its own
 - Name a file after the main type it holds
