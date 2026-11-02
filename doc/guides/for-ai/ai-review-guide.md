@@ -26,6 +26,21 @@ found in the LICENSE file in the root of this package.
 - Functions that already exist in the repo but are not reused.
 - Duplicate imports, duplicate test setups, copied constants.
 
+### Architecture
+
+- A feature bolted onto an existing class or function instead of given a
+  concept of its own.
+- A new branch in a switch or `if` chain over a type or kind, where a
+  new type behind an interface would do.
+- A new boolean or mode parameter that switches behaviour.
+- A new dependency that points from the core towards UI, IO or a
+  framework, or that closes a cycle.
+- Logic that already exists in another module, copied instead of shared.
+- A new abstraction without a goal that asks for it.
+- Check these against `doc/guides/architecture-guide.md`; when the
+  change shows the structure itself is off, suggest
+  `/gg-review-architecture`.
+
 ### Clarity
 
 - Functions longer than ~10 lines — suggest extraction, but only if

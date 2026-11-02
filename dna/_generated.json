@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xea7897d52aebb9b6"
+      "hash": "0xbcd4a4633da249d8"
     }
   ],
   "claude": {
@@ -30,6 +30,10 @@
       "hash": "0x407993e16f1abfce"
     },
     {
+      "path": ".claude/skills/gg-review-architecture/SKILL.md",
+      "hash": "0x98a82c7e3accd434"
+    },
+    {
       "path": ".claude/skills/review-heavy/SKILL.md",
       "hash": "0xdc2826a30955f359"
     },
@@ -42,6 +46,10 @@
       "hash": "0x205a400a2064ba93"
     },
     {
+      "path": "doc/guides/architecture-guide.md",
+      "hash": "0x595fc8d6a8a01a41"
+    },
+    {
       "path": "doc/guides/code-guide-dart.md",
       "hash": "0x2f38fb84b1571e48"
     },
@@ -51,11 +59,11 @@
     },
     {
       "path": "doc/guides/code-guide.md",
-      "hash": "0xfebf09bdf11504f3"
+      "hash": "0xfa5910f5e375af42"
     },
     {
       "path": "doc/guides/for-ai/ai-review-guide.md",
-      "hash": "0xccff7f6e74befd48"
+      "hash": "0x2ad71349cac6f44a"
     },
     {
       "path": "doc/guides/for-ai/review-heavy-guide.md",
