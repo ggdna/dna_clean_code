@@ -11,6 +11,12 @@ every language, plus the specifics of the languages we use.
 - `dna/doc/guides/code-guide-dart.md`,
   `dna/doc/guides/code-guide-typescript.md` — what that means in each
   language
+- `dna/doc/guides/architecture-guide.md` — starting from the goals and
+  the role of the repo, cutting along concepts, hiding the inside,
+  treating the public API as a contract, saying each concept once across
+  repos, growing by adding, not building for imagined futures, deciding
+  where new code goes, structure smells, changing the structure in small
+  steps
 - `dna/doc/guides/test-guide.md` — mirroring the source tree, starting
   from the example, real types over mocks, asserting on structure, 100
   percent coverage
@@ -26,6 +32,9 @@ every language, plus the specifics of the languages we use.
 - `/test` — checks the tests against the test guide
 - `/review-light` — reviews the current changes
 - `/review-heavy` — the same, plus `/simplify` and `/code-review`
+- `/gg-review-architecture` — reviews the structure of the whole repo
+  against its goals and the architecture guide, proposes a target
+  structure and the steps to get there
 
 ## Layers
 
@@ -47,8 +56,10 @@ or patch them:
 
 The neutral guides mark their exchangeable sections with `@` tags —
 `@layout`, `@imports`, `@api`, `@naming`, `@nesting`, `@coverage`,
-`@performance`, `@security` — so an override can replace one section
-without restating the rest.
+`@performance`, `@security`, `@architecture`, and in the architecture
+guide `@goals`, `@boundaries`, `@encapsulation`, `@contracts`, `@dry`,
+`@extension`, `@yagni`, `@placement`, `@smells`, `@migration` — so an
+override can replace one section without restating the rest.
 
 ## Usage
 

@@ -9,12 +9,13 @@
   "name": "dna_clean_code",
 
   // 1-2 sentence summary about this repo.
-  "summary": "DNA layer: language neutral code + test conventions, Dart + TypeScript specifics, review checklist; skills /code /test /review-light /review-heavy.",
+  "summary": "DNA layer: language neutral code + test conventions, Dart + TypeScript specifics, architecture guide, review checklist; skills /code /test /review-light /review-heavy /gg-review-architecture.",
 
   // 1-3 bullet points: the problem space.
   "domain": [
     "code conventions: layout, API, example constructors, placeholder identifiers, naming",
     "test conventions: mirrored tree, examples, no mocks, 100% coverage",
+    "architecture conventions: goals first, concept boundaries, contracts, DRY across repos, YAGNI, stepwise migration",
     "AI code review checklist",
   ],
 

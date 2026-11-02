@@ -9,4 +9,4 @@
 // coverage:ignore-file
 
 /// The version of the `dna_clean_code` package.
-const String dnaCleanCodeVersion = '0.3.0';
+const String dnaCleanCodeVersion = '0.4.0';
