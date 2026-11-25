@@ -9,7 +9,7 @@
   "name": "dna_clean_code",
 
   // 1-2 sentence summary about this repo.
-  "summary": "DNA layer: language neutral code + test conventions, Dart + TypeScript specifics, architecture guide, review checklist; skills /code /test /review-light /review-heavy /gg-review-architecture.",
+  "summary": "DNA layer: language neutral code + test conventions, Dart + TypeScript specifics, architecture guide, review checklist; skills /code /test /review-light /review-heavy /gg-review-architecture; keeps its guides out of the published package.",
 
   // 1-3 bullet points: the problem space.
   "domain": [
