@@ -1,5 +1,7 @@
 # Changelog
 
+## 0.5.0 - 2026-11-25
+
 ## 0.4.0 - 2026-11-02
 
 - Add the architecture guide and the `/gg-review-architecture` skill:
