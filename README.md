@@ -36,6 +36,12 @@ every language, plus the specifics of the languages we use.
   against its goals and the architecture guide, proposes a target
   structure and the steps to get there
 
+## Publishing
+
+`dna/dot-pubignore` keeps `/doc/guides/` out of the package `dart pub publish`
+uploads. helix joins it with the ignore files of the other layers into the
+project's `.pubignore`.
+
 ## Layers
 
 Orthogonal — it declares no parents and is inherited by the umbrella

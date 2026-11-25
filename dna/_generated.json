@@ -5,7 +5,7 @@
       "name": "base",
       "package": "helix",
       "ecosystem": null,
-      "resolvedVersion": "1.14.0",
+      "resolvedVersion": "1.15.2",
       "via": null,
       "hash": "0x6883da335b415f9d"
     },
@@ -15,14 +15,14 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0x8e7b9f31d43721ab"
+      "hash": "0xa53bcc8790991ca9"
     }
   ],
   "claude": {
     "claudeMdInclude": null,
     "claudeMdFromDna": false
   },
-  "baseVersion": "1.14.0",
+  "baseVersion": "1.15.2",
   "baseHash": "0x6883da335b415f9d",
   "instances": [
     {
@@ -44,6 +44,10 @@
     {
       "path": ".claude/skills/test/SKILL.md",
       "hash": "0x205a400a2064ba93"
+    },
+    {
+      "path": ".pubignore",
+      "hash": "0xc69c813ffc02e3e3"
     },
     {
       "path": "doc/guides/architecture-guide.md",
