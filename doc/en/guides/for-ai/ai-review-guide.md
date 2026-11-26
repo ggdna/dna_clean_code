@@ -33,7 +33,7 @@ Architecture findings lie between files, so check the change as a whole:
   offers; name the place you found it in.
 - A new abstraction with a single implementation that neither the
   ticket nor the recorded target picture asks for.
-- Check these against `doc/guides/architecture-guide.md`; when the
+- Check these against `doc/en/guides/architecture-guide.md`; when the
   change shows the structure itself is off, suggest
   `/gg-review-architecture`.
 
@@ -41,7 +41,7 @@ Architecture findings lie between files, so check the change as a whole:
 
 ### Guides
 
-- Walk through the guides in `doc/guides` and check what needs to be
+- Walk through the guides in `doc/en/guides` and check what needs to be
   adjusted in the code so that all guides are fulfilled
 
 ### Redundancy / DRY
