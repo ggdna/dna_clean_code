@@ -11,7 +11,7 @@ found in the LICENSE file in the root of this package.
 What the [Code Guide](./code-guide.md) means in a TypeScript package.
 Read that one first; this only fills in the specifics.
 
-## Lay out the package
+## @layout Lay out the package
 
 - Make `src/index.ts` the barrel: license header, then only `export …`
   lines, no implementation
@@ -19,13 +19,13 @@ Read that one first; this only fills in the specifics.
 - Name files in kebab-case after the main type they hold
 - Mirror `src/` in `test/` one to one, each file as `<name>.spec.ts`
 
-## Order the imports
+## @imports Order the imports
 
 - Node builtins first, then dependencies, then what belongs to this
   repo
 - Prefer relative imports inside the package
 
-## Shape the API
+## @api Shape the API
 
 - Take an options object rather than a long positional list
 - Mark what does not change `readonly`, and prefer `interface` for a
@@ -35,7 +35,7 @@ Read that one first; this only fills in the specifics.
 - Await every promise, or hand it to something that does — a floating
   promise loses its rejection
 
-## Give every class an example
+## @example Give every class an example
 
 Offer a `static example(…)` that takes a partial options object and
 fills in a working value for everything left out:
@@ -47,19 +47,19 @@ static example(options: Partial<UserOptions> = {}): User {
 }
 ```
 
-## Comment landmarks
+## @landmarks Comment landmarks
 
 - `// #####…` before a class, interface, type or enum
 - `// ....…` before every documented method, getter or field block
 
-## Document with TSDoc
+## @doc-comments Document with TSDoc
 
 - Every exported member carries a `/** … */` comment with a description
 - Document parameters as `@param name - <description>`
 - The types are in the signature — do not repeat them in the comment
 - Add an example only when the call is not obvious
 
-## Keep the lints strict
+## @lints Keep the lints strict
 
 - Run `eslint` with `typescript-eslint`, plus the `tsdoc` and `jsdoc`
   plugins
@@ -68,7 +68,7 @@ static example(options: Partial<UserOptions> = {}): User {
 - Let Prettier own the formatting: single quotes, semicolons, two
   spaces, trailing commas, 80 columns
 
-## Name things consistently
+## @naming Name things consistently
 
 | Construct | Style | Example |
 | --- | --- | --- |
@@ -79,7 +79,7 @@ static example(options: Partial<UserOptions> = {}): User {
 | Constant | lowerCamelCase | `carriageReturn` |
 | Enum value | lowerCamelCase | `Status.success` |
 
-## Avoid these
+## @avoid Avoid these
 
 - `any` where a real type fits — reach for `unknown` and narrow it
 - A non-null assertion (`!`) used to silence the compiler

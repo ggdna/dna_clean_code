@@ -37,21 +37,21 @@ Architecture findings lie between files, so check the change as a whole:
   change shows the structure itself is off, suggest
   `/gg-review-architecture`.
 
-## Review checklist (per changed file)
+## @checklist Review checklist (per changed file)
 
-### Guides
+### @guides Guides
 
 - Walk through the guides in `doc/guides` and check what needs to be
   adjusted in the code so that all guides are fulfilled
 
-### Redundancy / DRY
+### @redundancy Redundancy / DRY
 
 - Identical or nearly identical blocks in the diff or its direct
   neighborhood.
 - Small helpers that already exist in the repo but are not reused.
 - Duplicate imports, duplicate test setups, copied constants.
 
-### Clarity
+### @clarity Clarity
 
 - Functions longer than ~10 lines — suggest extraction, but only if
   it is clearly more readable.
@@ -90,7 +90,7 @@ Architecture findings lie between files, so check the change as a whole:
   maintainers? Plausible score? If not assessable, report as a
   suggestion.
 
-## Interactive fix loop
+## @interactive Interactive fix loop
 
 Walk through all blockers: show the patch per finding,
 apply / skip / edit (edit = the user describes an
