@@ -24,7 +24,7 @@ one of them live next door: [Dart](./code-guide-dart.md),
 - Name a file after the main type it holds
 - Mirror the source tree in the test tree one to one
 
-## Open every file with the license header
+## @license Open every file with the license header
 
 - Copy the header from a neighbouring file
 - Follow it with a blank line, then the imports
@@ -35,7 +35,7 @@ one of them live next door: [Dart](./code-guide-dart.md),
   what belongs to this repo
 - Sort each group alphabetically and separate the groups by a blank line
 
-## Order the members of a type
+## @members Order the members of a type
 
 - Constructors first, each with a doc comment
 - Alternative constructors next
@@ -83,7 +83,7 @@ setters.
   example must neither collide with a real app nor look like one
 - Keep real identifiers in the configuration of the real app only
 
-## Separate sections with comment landmarks
+## @sections Separate sections with comment landmarks
 
 - A `#####` rule before a class, enum or other top level construct
 - A `.....` rule before every documented method, getter or field block
@@ -91,14 +91,14 @@ setters.
 
 Keep the style as it is — do not invent variants.
 
-## Document every public member
+## @public Document every public member
 
 - Give each public member a doc comment
 - Start with one complete sentence in third person indicative
 - Document parameters on the following lines
 - Add an example only when the call is not obvious
 
-## Keep functions small and flat
+## @functions Keep functions small and flat
 
 - A function that outgrows roughly ten lines wants to be split — but only
   when the split is genuinely easier to read
@@ -107,7 +107,7 @@ Keep the style as it is — do not invent variants.
 - Give the extracted piece a name that says what it does, so the caller
   reads as prose
 
-## Say it once
+## @dry Say it once
 
 - Two nearly identical blocks are one block with a parameter
 - Reuse the helper that already exists in the repo instead of writing a
@@ -124,7 +124,7 @@ Keep the style as it is — do not invent variants.
 - Constants and enum values in lowerCamelCase
 - A test file named after the file it covers
 
-## Avoid these
+## @avoid Avoid these
 
 - A dynamically typed value where a real type fits
 - Mutating public fields

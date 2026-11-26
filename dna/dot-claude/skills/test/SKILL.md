@@ -18,12 +18,12 @@ language of this repo as well — `test-guide-dart.md` or
 `test-guide-typescript.md` next to it — and apply whichever one matches
 what the repo is written in.
 
-## 1. Check the mirroring
+## @mirroring 1. Check the mirroring
 
 List the source tree against the test tree and report every source file
 without its own test file — coverage counts per file name.
 
-## 2. Check the content
+## @content 2. Check the content
 
 Report tests that assert element by element where a structural compare
 belongs, printing in tests, objects built by hand where the class's
@@ -31,11 +31,11 @@ belongs, printing in tests, objects built by hand where the class's
 and coverage ignores on paths that dependency injection could
 reach.
 
-## 3. Run the checks
+## @checks 3. Run the checks
 
 Run the repo's own commit check and report what fails. Stop before
 changing anything.
 
-## 4. Report before fixing
+## @report 4. Report before fixing
 
 List the findings first. Fix only what the user confirms.

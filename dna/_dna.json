@@ -3,6 +3,10 @@
   // last layer of its own instantiation.
   "version": 2,
 
+  // Published as a DNA layer: helix requires a tag on every section of
+  // dna/ markdown, so the layers above can override each one.
+  "isLayer": true,
+
   // Orthogonal — clean code stands on its own and is inherited by the
   // umbrella layer of each organization.
   "layers": [],

@@ -18,12 +18,12 @@ language of this repo as well — `code-guide-dart.md` or
 `code-guide-typescript.md` next to it — and apply whichever one matches
 what the repo is written in.
 
-## 1. Check the layout
+## @layout 1. Check the layout
 
 Report a barrel file that holds implementation, a file whose name does
 not match its main type, and a source file without its test file.
 
-## 2. Check the members
+## @members 2. Check the members
 
 Report public members without a doc comment, mutable public fields,
 classes without an `example` constructor, and types whose members are
@@ -34,12 +34,12 @@ docs — bundle IDs, application IDs, domains, URLs, mail and IP
 addresses — that should be a placeholder such as `com.example.<app>` or
 `example.com`.
 
-## 3. Check the lints
+## @lints 3. Check the lints
 
 Compare the lint configuration against the mandatory rule set of the
 language guide and report what is missing or switched off without a
 reason.
 
-## 4. Report before fixing
+## @report 4. Report before fixing
 
 List the findings first. Fix only what the user confirms.

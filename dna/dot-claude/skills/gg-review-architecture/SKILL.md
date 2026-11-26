@@ -23,7 +23,7 @@ Review the whole repo, not the current diff, and look beyond it where the
 guide says so. Think like a senior developer who will still maintain
 this code in two years.
 
-## 1. Understand the goals and the role
+## @goals 1. Understand the goals and the role
 
 Determine the role of the repo as `@goals` describes, with evidence. For
 a repo that follows another, find the upstream (`interfaces.uses`, the
@@ -46,7 +46,7 @@ the whole review around, such as whether this repo may diverge from the
 repo it follows, and no source answers it; otherwise name the assumption
 and go on.
 
-## 2. Measure and map the structure
+## @map 2. Measure and map the structure
 
 Measure before you read in depth: lines per file, commits per file over
 the last year or the whole history if shorter
@@ -68,7 +68,7 @@ exist only through `import type` apart from runtime cycles.
 Check what `CLAUDE.md`, the README and existing architecture docs claim
 about the structure against the code; a false claim is a finding.
 
-## 3. Look at the neighbours
+## @neighbours 3. Look at the neighbours
 
 For each concept in the map, search the source files of the repos in
 `.ocean` for its public symbol names and file names, skipping
@@ -86,7 +86,7 @@ A fix that belongs in another repo goes into the report as a proposal
 for a workspace ticket; do not plan it in detail. Still name the release
 order and the cost across repos.
 
-## 4. Check and weigh
+## @weigh 4. Check and weigh
 
 Check the structure against `@boundaries`, `@encapsulation`,
 `@contracts`, `@dry`, `@extension`, `@yagni` and `@smells`, but report
@@ -110,7 +110,7 @@ write a finding to fill a section.
 List false claims about the structure (step 2) in one list of their own,
 without a cost; they take no place among the top findings.
 
-## 5. Design the target structure
+## @target 5. Design the target structure
 
 Describe the structure that carries the goals: what moves where, which
 seams to add or remove, and a new concept only where a goal asks for it.
@@ -127,7 +127,7 @@ option when the target is the current structure, one line is enough: the
 goal or present cost it serves and the point from which it would win.
 Drop a change that serves none.
 
-## 6. Plan the steps
+## @steps 6. Plan the steps
 
 Order the changes into steps that are each shippable on their own, as
 the guide describes under `@migration`. Name for each step what it
@@ -139,7 +139,7 @@ structural steps: mark each as read or tested, and plan it as a step of
 its own (pin the behaviour, then fix) or as a ticket proposal. A missing
 upstream feature is a ticket proposal, not a step.
 
-## 7. Report before changing
+## @report 7. Report before changing
 
 Present the verdict, the questions, the findings, the target picture and
 the steps. Change nothing yet.
