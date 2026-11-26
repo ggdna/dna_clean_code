@@ -15,7 +15,7 @@
       "ecosystem": null,
       "resolvedVersion": null,
       "via": null,
-      "hash": "0xeac48c10ffc91f19"
+      "hash": "0x4b0a9c8a68fd4549"
     }
   ],
   "claude": {
@@ -58,11 +58,11 @@
     },
     {
       "path": "doc/de/guides/code-guide-dart.md",
-      "hash": "0xd994a0ce327cc647"
+      "hash": "0x4e8072a194603e00"
     },
     {
       "path": "doc/de/guides/code-guide-typescript.md",
-      "hash": "0x427bdec7599cb836"
+      "hash": "0x6a42a92d9b2c7f6a"
     },
     {
       "path": "doc/de/guides/code-guide.md",
@@ -130,11 +130,11 @@
     },
     {
       "path": "doc/fa/guides/code-guide-dart.md",
-      "hash": "0x4275a02c0b50be57"
+      "hash": "0x8d3c7129e3ccb6dd"
     },
     {
       "path": "doc/fa/guides/code-guide-typescript.md",
-      "hash": "0xd5e47ac5aa9d1aa2"
+      "hash": "0x646136104b278546"
     },
     {
       "path": "doc/fa/guides/code-guide.md",
